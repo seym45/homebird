@@ -1,6 +1,6 @@
 import os
 from flask import Flask, request, render_template, send_from_directory
-__author__ = r'/seym45'
+__author__ = 'seym45'
 app = Flask(__name__)
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
